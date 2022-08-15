@@ -1,4 +1,4 @@
-const assert = require('assert');
+import assert = require('assert'); // ignore ts warning; this is working
 import { Num } from '../src/index';
 
 describe('Num', () => {
